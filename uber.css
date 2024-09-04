@@ -1,0 +1,446 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+ }
+ body{
+    background-color: black;
+    overflow-x: hidden;
+ 
+ }
+ header {
+    position: fixed;
+    height: 10vh;
+    width: 100%;
+    background:black;
+    z-index: 1;
+    
+ }
+ 
+ nav {
+    display: flex;
+    justify-content: space-between;
+    
+    
+ }
+ 
+
+ nav .nav_logo  {
+    color: white;
+    font-weight: 100;
+    font-size: 20px;
+    position: relative;
+    left: 150px;
+    margin-top: 10px;
+ }
+ 
+ nav .menu {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    position: relative;
+    top: 10px;
+    right: 170px;
+    z-index: 1;
+    
+   
+    
+ }
+ 
+ nav .menu li a {
+    display: block;
+    padding: 5px 10px;
+    font-size: 15px;
+    font-weight: 200;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    
+ }
+ 
+ nav .menu li a:hover {
+    background-color:rgb(27,27,27);
+ }
+ nav .menu2 {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    position: relative;
+    right: 80px;
+    top: 10px;
+    
+ }
+ 
+ nav .menu2 li a {
+    display: block;
+    padding: 5px 10px;
+    font-size: 15px;
+    font-weight: 200;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+ 
+ }
+ 
+ nav .menu2  li a:hover {
+    background-color:rgb(27,27,27);
+ }
+ nav .menu select{
+    border-radius: 20px;
+    font-size: 15px;
+   
+    
+ }
+ nav .menu select{
+    font-size: 15px;
+    color: white;
+    background-color: black;
+ }
+ 
+ 
+ nav .menu2 .signin{
+    color: black;
+    background-color: white;
+ }
+ nav .menu2 .signin:hover{
+    color: white;
+    background-color: #252525;
+ }
+ 
+ nav label {
+    font-size: 32px;
+    color: white;
+    cursor: pointer;
+ }
+ 
+ label .menu_btn,
+ label .close_btn {
+    display: none;
+ }
+ 
+ #click {
+    display: none;
+ }
+ .section{
+    height: 110vh;
+    width: 100%;
+    background-color:transparent;
+ }
+ .section h2,h4{
+    color: white;  
+ 
+ }
+ .section img{
+    width: 80vh;
+     height: 85vh;
+    position: relative;
+    /* top: 0px; */
+    left: 600px;
+    border-radius: 10px;
+ }
+ .section h2{
+    font-size: 47px;
+    position: relative;
+    left: 70px;
+    top: 230px;
+ }
+ .section h4{ 
+    position: relative;
+    left: 80px;
+    top: 250px;
+ }
+ 
+ .section2{
+    height: 110vh;
+    width: 100%;
+    background-color:white;
+ }
+ .section2 h2{
+    font-size: 45px;
+    position: relative;
+    left: 65%;
+    top: 230px;
+    color: black;
+ }
+ .section2 p{
+    font-size: 15px;
+    color:black;
+    position: relative;
+    left: 65%;
+    top: 253px;}
+ 
+ .section2 img{
+    width: 80vh;
+    height: 85vh;
+    margin-left: 10%;
+    margin-top: -33px;
+ }
+ .section3{
+    height: 110vh;
+    width: 100%;
+    background-color:white;
+ }
+ .section3 h2{
+    font-size: 45px;
+    position: relative;
+    left: 100px;
+    color:black;
+    top: 300px;
+ }
+ .section3 p{
+    font-size: 15px;
+    color:black;
+    position: relative;
+    left: 100px;
+    top: 330px;
+ }
+ .section3 img{
+    width: 80vh;
+    height: 80vh;
+    position: relative;
+    left: 55%;
+ }
+ .section4{
+    height: 110vh;
+    width: 100%;
+    background-color:white;
+ }
+ .section4 h2{
+    font-size: 45px;
+    position: relative;
+    left: 55%;
+    top: 230px;
+    color:black;
+ }
+ .section4 p{
+    font-size: 15px;
+    color:black;
+    position: relative;
+    left: 55%;
+    top: 280px;
+ }
+ .section4 img{
+    width: 80vh;
+    height: 85vh;
+     margin-left: 10%;
+     border-radius: 10px;
+ }
+ .section5{
+    height: 60vh;
+    width: 100%;
+    background-color: azure;
+ }
+
+ .section5 h2{
+   font-size: 35px;
+   position: relative;
+   top: 40px;
+   left: 90px;
+   font-weight: 800;
+   
+}
+ .location{
+    border-radius: 5px;
+    position: relative;
+    left: -421px;
+    bottom: 218px;
+    padding: 9px 54px;
+ 
+ }
+ .destination{
+    border-radius: 5px;
+    padding: 9px 54px;
+    position: relative;
+    right: 700px;
+    bottom: 164px;
+    
+
+    
+ 
+ }
+ .button{
+    border-radius: 5px;
+    padding: 9px 18px;
+    position: relative;
+    bottom: 110px;
+    right:980px;
+}
+ .button2{
+   border-radius: 5px;
+    padding: 9px 18px;
+    position: relative;
+    bottom: 120px;
+    left:200px;
+ }
+ .button3 {
+   border-radius: 5px;
+    padding: 9px 18px;
+    position: relative;
+    bottom: 90px;
+    right:370px;
+ }
+ .button4{
+   border-radius: 5px;
+   padding: 9px 18px;
+   position: relative;
+   bottom: 150px;
+   left:90px;
+ }
+
+
+
+
+
+ /*----------footer section------*/
+ footer {
+    background-color:transparent;
+    height: 90vh;
+    width: 100%;
+    color: white;
+    display: flex;
+    gap: 150px;
+   
+ }
+ .uber h2{
+    font-size: 17px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    text-align: center;
+    
+ }
+ footer h1{
+    font-size:16px ;
+    position: relative;
+    top: 220px;
+ }
+ p{
+    position: relative;
+    left: 255px;
+    top: 59px;
+ 
+ }
+ 
+   footer ul li {
+    list-style: none;
+    font-size: 24px;
+    
+    position: relative;
+    top: 270px;
+ }
+ a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+ }
+ .apps{
+    position: relative;
+    left: 100px;
+ }
+  .apps i {
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+ 
+ }
+ 
+ .follow_us i:hover {
+    color: #252525;
+ }
+ /*---media query---*/
+
+
+ @media only screen and (max-width: 420px) {
+   nav {
+     flex-direction: column;
+     overflow: hidden;
+   }
+ 
+   nav .nav_logo {
+     left: 50px;
+     margin-top: 10px;
+   }
+ 
+   label .menu_btn {
+     display: block;
+   }
+ 
+   nav ul {
+     display: flex;
+     flex-direction: column;
+     background: white;
+     position: absolute;
+     left: -100%;
+     overflow-y: auto;
+     height: 100vh;
+     width: 100%;
+     text-align: center;
+     transition: all 0.15s ease;
+   }
+ 
+   #click:checked~ul {
+     left: 0;
+   }
+ 
+   #click:checked~label .close_btn {
+     display: block;
+   }
+ 
+   #click:checked~label .menu_btn {
+     display: none;
+   }
+ 
+   nav ul li a {
+     color: #252525;
+   }
+ 
+   .section img {
+     width: 100%;
+     height: auto;
+     left: 0;
+     margin-top: 20px;
+   }
+ 
+   .section h2,
+   .section h4 {
+     left: 10px;
+     top: 20px;
+     text-align: center;
+     width: 100%;
+   }
+ 
+   .location,
+   .destination {
+     width: 80%;
+     left: 10%;
+     right: 10%;
+     bottom: 0;
+   }
+ 
+   .button {
+     width: 80%;
+     left: 10%;
+     right: 10%;
+     bottom: 0;
+   }
+ 
+   .section2 h2,
+   .section3 h2,
+   .section4 h2 {
+     left: 10px;
+     text-align: center;
+   }
+ 
+   .section2 img,
+   .section3 img,
+   .section4 img {
+     width: 100%;
+     height: auto;
+     margin-top: 20px;
+     left: 0;
+   }}
+ 
+ 
+ 
+ 
